@@ -7,6 +7,7 @@
         v-model="newTask"
         type="text"
         placeholder="Digite uma nova tarefa..."
+        @keyup.enter="addTask"
       />
       <button @click="addTask">Adicionar</button>
     </div>
@@ -31,8 +32,9 @@ export default {
   },
   methods: {
     addTask() {
-      if (this.newTask.trim() === '') return
-      this.tasks.push({ id: Date.now(), text: this.newTask })
+      const texto = this.newTask.trim()
+      if (texto === '') return
+      this.tasks.push({ id: Date.now(), text: texto })
       this.newTask = ''
     },
     removeTask(id) {
