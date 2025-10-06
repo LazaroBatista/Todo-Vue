@@ -41,10 +41,15 @@ export default {
   padding: 10px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 400px) {
   .week-grid {
-    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    margin: 10px 0 0 50px;
+    height: auto;
+    gap: 0;
+    min-width: 100px;
   }
 }
 </style>

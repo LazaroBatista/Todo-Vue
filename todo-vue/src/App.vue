@@ -33,4 +33,11 @@ h1 {
   align-items: center;
   gap: 8px;
 }
+
+@media (max-width: 400px) {
+  .app {
+    width: auto;
+    height: auto;
+  }
+}
 </style>
