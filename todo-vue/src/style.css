@@ -65,6 +65,26 @@ button:focus-visible {
   text-align: center;
 }
 
+.week {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 16px;
+  align-items: start;
+}
+
+@media (max-width: 1000px) {
+  .week {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 650px) {
+  .week {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;

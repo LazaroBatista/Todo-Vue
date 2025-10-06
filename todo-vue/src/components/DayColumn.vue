@@ -65,18 +65,20 @@ export default {
 <style scoped>
 .day-column {
   background: #ffffff;
+  margin: 40px 0 40px 0;
   border-radius: 14px;
-  padding: 15px;
+  padding: 50px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   display: flex;
   flex-direction: column;
-  align-items: stretch;
-  width: 180px;
+  align-items: center;
+  width: 140px;
+  height: auto;
   transition: 0.3s;
 }
 
 .day-column:hover {
-  transform: translateY(-3px);
+  transform: translateY(-10px);
 }
 
 h2 {
@@ -96,6 +98,7 @@ h2 {
 input {
   flex: 1;
   padding: 8px;
+  width: 110px;
   border: 1px solid #ddd;
   border-radius: 8px;
   font-size: 14px;

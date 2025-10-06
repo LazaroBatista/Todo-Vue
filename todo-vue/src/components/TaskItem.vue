@@ -27,7 +27,8 @@ export default {
   justify-content: space-between;
   align-items: center;
   background: #f9fafb;
-  padding: 8px 10px;
+  width: 150px;
+  padding: 20px 10px;
   border-radius: 8px;
   border: 1px solid #e5e7eb;
   transition: 0.2s;

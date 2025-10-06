@@ -32,10 +32,6 @@ export default {
 </script>
 
 <style scoped>
-.week-scroll {
-  overflow-x: auto;
-  padding-bottom: 10px;
-}
 
 .week-grid {
   display: flex;
@@ -45,7 +41,7 @@ export default {
   padding: 10px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 800px) {
   .week-grid {
     flex-wrap: wrap;
     justify-content: center;

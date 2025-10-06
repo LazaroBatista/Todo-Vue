@@ -15,9 +15,9 @@ export default {
 
 <style scoped>
 .app {
-  max-width: 1100px;
+  width: 1750px;
   margin: 40px auto;
-  padding: 25px;
+  padding: 15px;
   font-family: 'Poppins', sans-serif;
   text-align: center;
   background: #f9fafb;
